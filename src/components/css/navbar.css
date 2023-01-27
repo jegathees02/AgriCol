@@ -4,43 +4,22 @@
     padding: 0%;
     background-color: white;
 }
-
-.logo-main{
-    float: left;
-}
-
-.logo-img{
-    margin-top:2%;
-    margin-left: 1.5%;
-    float: left;
-}
-.logo-text {
-    float: left;
-    margin-top: 4%;
-    margin-left: 0%;
-    font-size: larger;
-    font-family: 'Alice', serif;
-}
-/* .logo-main::after {
-    display: block;
-    content: "";
-    clear: both;
-} */
-.name-of-logo{
-    float: left;
-    margin-top: 25px;
-}
-.logo-main {
-    float: left;
-    width: 22%;
-}
 .nav-main{
-    float: right;
-    width: 78%;
-    margin-top: 25px;
+    display: inline;
+    /* float: left; */
+    align-items: center;
 }
-Nav.link{
+.nav-left{
+    width: 20%;
+    float: left;
+}
+.nav-right{
+    float: right;
     text-decoration: none;
-    color: black;
-    text-shadow: 5px;
+}
+.nav-list {
+    list-style: none;
+}
+.nav > img {
+    display: inline;
 }
