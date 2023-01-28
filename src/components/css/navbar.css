@@ -10,16 +10,31 @@
     align-items: center;
 }
 .nav-left{
-    width: 20%;
+    /* width: 20%; */
     float: left;
 }
-.nav-right{
+.nav-right {
     float: right;
-    text-decoration: none;
+    width: 50%;
 }
+
 .nav-list {
     list-style: none;
+    /* display: ; */
+    display: flex;
+    float: left;
+    /* margin-top: 2%; */
+    /* margin-left: 50px; */
+    /* margin-right: 5px; */
 }
-.nav > img {
-    display: inline;
+.nav-ele {
+    margin-left:60px;
+    margin-top: 4%;
+    font-size: larger;
+    font-weight: 700;
+    cursor: pointer;
 }
+.nav-ele :hover {
+    text-decoration: underline;
+}
+

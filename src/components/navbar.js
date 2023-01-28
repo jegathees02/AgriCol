@@ -309,17 +309,21 @@
 import React from 'react';
 import './css/navbar.css'
 function Navbar() {
-  const menu = ["weather","Market","Community","Login"]
+  const menu = ["Home","About_us","Community","Customer_Support"]
   const menumap = menu.map((menus) => 
-    <li>{menus}</li>
+    <li className='nav-ele'>{menus}</li>
   )
+  const size = {
+    height : 75,
+    width:105
+  }
   return (
     <>
       <div className='navbar'>
         <nav className='nav-main'>
           <div className='nav-left'>
-          <img src='https://res.cloudinary.com/dkmm9khbp/image/upload/v1673664349/AGRICOL/Agricol_logo_xrjeam.png'  alt='img'/>
-          <img src='https://res.cloudinary.com/dkmm9khbp/image/upload/v1673975592/AGRICOL/coollogo_com-11870614_u0qiqj.png'  alt='img'/>
+          <img className='nav-img-1' style={size} src='https://res.cloudinary.com/dkmm9khbp/image/upload/v1673664349/AGRICOL/Agricol_logo_xrjeam.png'  alt='img'/>
+          <img className='nav-img-2' style={size} src='https://res.cloudinary.com/dkmm9khbp/image/upload/v1673975592/AGRICOL/coollogo_com-11870614_u0qiqj.png'  alt='img'/>
 
           </div>
           <div className='nav-right'>
