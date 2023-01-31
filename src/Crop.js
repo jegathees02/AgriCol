@@ -8,7 +8,7 @@ function Crop(props) {
           Success rate : {props.badg}
         </p>
         <div id="card-img">
-          <img src={props.imag}></img>
+          <img src={props.imag} alt="image" ></img>
         </div>
         <div id="card-content">
           <h2>{props.name}</h2>
