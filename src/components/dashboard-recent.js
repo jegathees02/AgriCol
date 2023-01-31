@@ -64,7 +64,7 @@ function DashBoardRecent() {
                                     <Col sm={6} md={4} className="dash-recent-card">
                                         <div className="card" style={{ width: '18rem' }}>
                                             <div className="card-body">
-                                                <img className="recent-card-img" style={ImageSize} src={props.Img}  className="responsive" />
+                                                <img className="recent-card-img" style={ImageSize} src={props.Img} alt='card' />
                                                 <h5 className="h5">{props.Name}</h5>
                                                 <p className="card-text">{props.Degree}</p>
                                                 <a href="/" className="btn btn-primary">View Details</a>
