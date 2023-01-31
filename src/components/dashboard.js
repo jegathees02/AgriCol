@@ -5,12 +5,12 @@ import Weather from './weather';
 import ChatbotMain from './chatbot/chatmain';
 import DashBoardRecent from './dashboard-recent';
 import Footer from './footer';
+import Speed from'./speeddial';
 function Dashboard() {
     return(
         <>
         <div>
-            {/* <Navbar/>
-            <Weather/> */}
+
             <div className="dashboard-Navbar">
                 <Navbar/>
             </div>
@@ -25,6 +25,9 @@ function Dashboard() {
             </div>
             <div className='dashboard-Weather'>
                 <Footer/>
+            </div>
+            <div className='dashboard-Weather'>
+                <Speed/>
             </div>
         </div>
         </>
