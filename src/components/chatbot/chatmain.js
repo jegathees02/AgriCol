@@ -139,11 +139,11 @@ const steps = [
 			// When we need to show a number of
 			// options to choose we create alist
 			// like this
-			{ value: 1, label: 'View Courses' },
-			{ value: 2, label: 'Read Articles' },
+			// { value: 1, label: 'View Courses' },
+			// { value: 2, label: 'Read Articles' },
 
 		],
-		end: true
+		// end: true
 	}
 ];
 
@@ -153,7 +153,7 @@ const theme = {
 	headerBgColor: '#197B22',
 	headerFontSize: '20px',
 	botBubbleColor: '#0F3789',
-	headerFontColor: 'white',
+	headerFontColor: '',
 	botFontColor: 'white',
 	userBubbleColor: '#FF5733',
 	userFontColor: 'white',
@@ -173,7 +173,7 @@ function ChatbotMain() {
 
 					// This appears as the header
 					// text for the chat bot
-					headerTitle="GeekBot"
+					headerTitle="Agri Bot"
 					steps={steps}
 					{...config}
 
