@@ -12,6 +12,7 @@
 .nav-left{
     /* width: 20%; */
     float: left;
+    display: flex;
 }
 .nav-right {
     float: right;
@@ -115,5 +116,11 @@
       ul {
           margin-top: 40px;
       }
+  }
+  .heading{
+margin-top: 10%;
+font-size:35px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(23, 92, 69);
   }
   

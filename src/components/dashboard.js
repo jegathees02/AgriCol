@@ -23,12 +23,12 @@ function Dashboard() {
             <div className='dashboard-Weather'>
                 <Weather/>
             </div>
-            <div className='dashboard-Weather'>
+            <div className='dashboard-footer'>
                 <Footer/>
             </div>
-            <div className='dashboard-Weather'>
+            {/* <div className='dashboard-Weather'>
                 <Speed/>
-            </div>
+            </div> */}
         </div>
         </>
     )

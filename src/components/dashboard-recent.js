@@ -61,7 +61,7 @@ function DashBoardRecent() {
                 <Row>
                             {recentdata.map((props) => {
                                 return ( 
-                                    <Col sm={6} md={4} className="dash-recent-card">
+                                    <Col sm={8} md={4} className="dash-recent-card">
                                         <div className="card" style={{ width: '18rem' }}>
                                             <div className="card-body">
                                                 <img className="recent-card-img" style={ImageSize} src={props.Img} alt='card' />

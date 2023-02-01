@@ -323,8 +323,8 @@ function Navbar() {
         <nav className='nav-main'>
           <div className='nav-left'>
           <img className='nav-img-1' style={size} src='https://res.cloudinary.com/dkmm9khbp/image/upload/v1673664349/AGRICOL/Agricol_logo_xrjeam.png'  alt='img'/>
-          <img className='nav-img-2' style={size} src='https://res.cloudinary.com/dkmm9khbp/image/upload/v1673975592/AGRICOL/coollogo_com-11870614_u0qiqj.png'  alt='img'/>
-
+          {/* <img className='nav-img-2' style={size} src='https://res.cloudinary.com/dkmm9khbp/image/upload/v1673975592/AGRICOL/coollogo_com-11870614_u0qiqj.png'  alt='img'/> */}
+           <h2 className='heading'>Agricol</h2>
           </div>
           <div className='nav-right'>
             <ul className='nav-list'>

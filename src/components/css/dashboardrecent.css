@@ -5,7 +5,8 @@
     text-align: center;
 }
 .dash-recent-main-txt{
-    font-weight: 700;
+    font-weight: 100;
+    /* margin-top: 500; */
 }
 
 .card-body{
