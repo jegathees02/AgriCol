@@ -1,28 +1,38 @@
 import React from "react";
 import '../components/css/onion.css';
+import Dashboard from "./dashboard";
+import Navbar from "./navbar";
 
 function Onion(props) {
     return(
         <div>
+            <div className="onion-dashboard">
+                <Navbar/>
+            </div>
             <div className="onion-container">
                 <div className="row">
+                    <div className="onion-card-tag">
                     <div className="onion-main">
-                        <div className="onion-heading">
-                            <h2>ONION</h2>
-                        </div>
-                        <div className="onion-img">
-                            <img className="onion-img" src="https://res.cloudinary.com/dkmm9khbp/image/upload/v1673638489/AGRICOL/wp3592423-onion-wallpapers_kxe2dt.jpg"
-                            alt="onion-images"></img>
-                        </div>
-                        <div className="onion-content">
-                            <div className="onion-botanical-name">
-                                <h5>Botanical Name: Allium Cepa</h5>
+                        <div className="onion-card">
+                            <div className="onion-heading">
+                                <h2 className="onion-title-head">ONION</h2>
                             </div>
-                            <div className="onion-gernination">
-                                <h5>Days for Germination : 7-10 days </h5>
-                                <h5>Days for Maturation : 150-160 days</h5>
+                            <div className="onion-img">
+                                <img className="onion-img" src="https://res.cloudinary.com/dkmm9khbp/image/upload/v1673638489/AGRICOL/wp3592423-onion-wallpapers_kxe2dt.jpg"
+                                alt="onion-images"></img>
                             </div>
+                            <div className="onion-content">
+                                <div className="onion-botanical-name">
+                                    <h5>Botanical Name: Allium Cepa</h5>
+                                </div>
+                            </div>
+                                <div className="onion-gernination">
+                                    <h5>Days for Germination : 7-10 days </h5>
+                                    <h5>Days for Maturation : 150-160 days</h5>
+                                </div>
                         </div>
+                    </div>
+                            
                         <div className="onion-description">
                             <h3 className="onion-title">OVERVIEW</h3>
                             <p>
