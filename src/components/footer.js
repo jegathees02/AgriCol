@@ -33,7 +33,7 @@ export default function App() {
 
       <section className='sec'>
         <MDBContainer className='text-center text-md-start mt-5'>
-          <MDBRow className='mt-3'>
+          <MDBRow className='mt-3' lg="9">
             <MDBCol md="1" lg="1" xl="2" className='mx-auto mb-4'>
               <h5 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="gem" className="me-3" />
@@ -110,6 +110,7 @@ export default function App() {
                 <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
               </p> */}
             </MDBCol>
+           
           </MDBRow>
         </MDBContainer>
       </section>
