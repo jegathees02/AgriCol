@@ -1,10 +1,17 @@
 import React from "react";
-import '../src/Crop.css';
+import { Link as RouterLink } from 'react-router-dom'
+import { Route } from "react-router-dom";
+import { ReactDOM } from "react";
+import { Link } from "react-router-dom";
+// import '../src/Crop.css';
+import '../components/css/Crop.css';
+// onion import
+import Onion from "./onion";
 function Crop(props) {
   return (
     <>
       <div className="maincrop" id="card">
-        <p style={{ backgroundColor: props.colo }}>
+        <p className="success-rate" style={{ backgroundColor: props.colo }}>
           Success rate : {props.badg}
         </p>
         <div id="card-img">
@@ -20,6 +27,10 @@ function Crop(props) {
             <tr>
               <td>Days for Maturation</td>
               <td>: {props.matu}</td>
+            </tr>
+            <tr>
+              {/* <button className="crop-plan-button">Get Plan</button> */}
+              <Link to={props.path} >GET PLAN</Link>
             </tr>
           </table>
         </div>

@@ -1,6 +1,6 @@
 import "./styles.css";
 import NavigationBar from "./components/navbar";
-import CropPlan from "./CropPlan";
+import CropPlan from "./components/CropPlan";
 import Onion from "./components/onion";
 // import Weather from "./components/pages/weather";
 import Dashboard from "./components/dashboard";
@@ -14,6 +14,7 @@ export default function App() {
       {/* <Weather/> */}
       <Dashboard/>
       {/* <Onion /> */}
+      {/* <CropPlan/> */}
     </div>
   );
 }

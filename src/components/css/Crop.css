@@ -84,3 +84,8 @@ table {
     display: inline;
   }
 } */
+.success-rate{
+  width: 60%;
+  float: right;
+  border-radius: 8px;
+}
